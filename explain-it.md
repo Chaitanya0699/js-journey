@@ -40,5 +40,36 @@
    next one was i forget to use ""  for a string i will rember the strings can be declared using "" or ''
    next one was i forget to use paranthess while using alert (); 
 
+---
+
+### Day 02: Interaction, Type Conversions & Operators (2026-11-17)
+
+1. **How do `alert()`, `prompt()`, and `confirm()` differ from each other? What kind of value does each one return?**
+   - alert is used to through an alert its shows a window showing the alert and just a button ok to accept it 
+   - prompt is used to take the input from user to make an operation and  in the paranthess of prompt we can attach default input value 
+   - confirm is used to accpet or reject a question 
+
+
+2. **In plain English, what is the difference between `counter++` (postfix) and `++counter` (prefix)?**
+
+   - the postfix is used when we need to increase the last counted value to 
+   - the prefix is used to show the last value 
+
+   - Counter = 1 
+   - counter++ gives 2
+   - ++ counter gives 1 
+
+3. **Why does `"$" + 4 + 5` become `"$45"`, but `4 + 5 + "px"` becomes `"9px"`? How does JavaScript decide?**
+   - here the first operation starts with a string 
+   the operations go from left to right 
+   "$" + 4 coverts the 4 to string and the optput should be "$4" + 5 it gives "$45"
+   - here the operation 4+5 gives the number 9 when the operation interacts with the string it converts "9px"
+
+4. **If a user types two numbers into `prompt()`, why does `a + b` stick them together instead of adding them, and what is your favorite way to fix it?**
+   - i learnt two best approches today 
+   the first one is (+a + +b) using +operator behind the string converts to number 
+   or we can use the optput as (Number(a) + Number(b)) 
+ 
+
 
 
