@@ -49,3 +49,17 @@ Every time you hit a bug, syntax error, unexpected output, or confusing behavior
 1. mainly in operators confused where + using this operators attaches strings 
 if we start with string the whole operation attaches as a string 
 if string is last and if we have any other numerical operations they get numerical operation and last it converts to string 
+
+typeof (Null) returns object 
+
+
+### 2026-11-18: Comparisons
+here i missed was numbers in form of string converison
+"2" > "12" i thought it was false 
+later learnt that it compares as a string so it goes one by one letter 
+in the first step it compares "2" > "1" its true and stops there 
+if the first comparison was equal it goes to next letter in the string 
+and another thing was 
+undifined == null was true i assumed it but got clarity now its a special js rule that equals each other under ==
+and got clarity on === it compares types not values 
+null comaprion also got clarity now null never converts to 0 

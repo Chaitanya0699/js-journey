@@ -56,8 +56,8 @@
    - the prefix is used to show the last value 
 
    - Counter = 1 
-   - counter++ gives 2
-   - ++ counter gives 1 
+   - counter++ gives 1
+   - ++ counter gives 2
 
 3. **Why does `"$" + 4 + 5` become `"$45"`, but `4 + 5 + "px"` becomes `"9px"`? How does JavaScript decide?**
    - here the first operation starts with a string 
